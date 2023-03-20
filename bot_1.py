@@ -31,6 +31,11 @@ def info(message):
         bot.reply_to(message, f'Ваш id {message.from_user.id}')
 
 
+@bot.message_handler(commands=['stop'])
+def com_main(message):
+    bot.send_message(message.chat.id, f'пока {message.text}')
+
+
 # lower() - приведение к нижнему регистру
 if __name__ == '__main__':
     bot.polling(none_stop=True)
