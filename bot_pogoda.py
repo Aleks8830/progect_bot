@@ -14,7 +14,7 @@ import json
 import requests
 import telebot
 
-bot = telebot.TeleBot('5910177422:AAGflGw4Vyw5XlY5VY-eAZ9xQMGwGrEa1v4')
+bot = telebot.TeleBot('5910177422:AAERxSR2pErvJCsh_TkJBMpFWeYZni7l3Ao')
 API = "ef4e5b952e3bdc662c41774d40d12ed0"
 
 
@@ -38,7 +38,7 @@ def get_weather(message):
         # bot.reply_to(message, f"Сейчас погода :{res.json()}")
 
         # теперь добавим фото в зависимости от погоды!
-        image = 'images_1.jpeg' if temp > 5.0 or temp < 0.0 else "images_2.jpeg"
+        image = 'images_1.jpeg' if temp > 5.0 or temp < 0.0 else "images_2.png"
         # далее необходимо открыть это изображение
         file = open('./' + image, 'rb')
         # далее мы отправляем пользователю фото

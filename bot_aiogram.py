@@ -4,7 +4,7 @@
 from aiogram import Bot, Dispatcher, types, executor
 
 # создадим экземпляр который будет ссылаться на реального бота в телеграмме
-bot = Bot('5910177422:AAGflGw4Vyw5XlY5VY-eAZ9xQMGwGrEa1v4')
+bot = Bot('5910177422:AAERxSR2pErvJCsh_TkJBMpFWeYZni7l3Ao')
 dp = Dispatcher(bot)
 
 
