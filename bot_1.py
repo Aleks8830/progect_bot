@@ -2,7 +2,7 @@ import webbrowser  # модуль для перехода на взб
 
 import telebot
 
-bot = telebot.TeleBot('5910177422:AAEDJD_9XRxQCglyQ8wE7q9tH1vHYCdEkCE')
+bot = telebot.TeleBot('5910177422:AAGflGw4Vyw5XlY5VY-eAZ9xQMGwGrEa1v4')
 
 
 # метод для перехода на сайт
